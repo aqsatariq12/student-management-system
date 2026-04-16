@@ -10,7 +10,7 @@ if(!isset($_SESSION['user'])){
   <!--begin::Head-->
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>AdminLTE v4 | Dashboard</title>
+    <title>Admin| Dashboard</title>
 
     <!--begin::Accessibility Meta Tags-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
@@ -66,7 +66,7 @@ if(!isset($_SESSION['user'])){
     <!--end::Third Party Plugin(Bootstrap Icons)-->
 
     <!--begin::Required Plugin(AdminLTE)-->
-    <link rel="stylesheet" href="adminlte/css/adminlte.css" />
+    <link rel="stylesheet" href="adminlte/dist/css/adminlte.css" />
     <!--end::Required Plugin(AdminLTE)-->
 
     <!-- apexcharts -->
@@ -309,7 +309,7 @@ if(!isset($_SESSION['user'])){
         <!--begin::Sidebar Brand-->
         <div class="sidebar-brand">
           <!--begin::Brand Link-->
-          <a href="adminlte/index.html" class="brand-link">
+          <a href="adminlte/dist/index.html" class="brand-link">
             <!--begin::Brand Image-->
             <img
               src="adminlte/dist/assets/img/AdminLTELogo.png"
@@ -346,19 +346,19 @@ if(!isset($_SESSION['user'])){
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="adminlte/index.html" class="nav-link active">
+                    <a href="adminlte/dist/index.html" class="nav-link active">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Dashboard v1</p>
-                    </a>
+                   </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/index2.html" class="nav-link">
+                    <a href="adminlte/dist/index2.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Dashboard v2</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/index3.html" class="nav-link">
+                    <a href="adminlte/dist/index3.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Dashboard v3</p>
                     </a>
@@ -366,7 +366,7 @@ if(!isset($_SESSION['user'])){
                 </ul>
               </li>
               <li class="nav-item">
-                <a href="adminlte/generate/theme.html" class="nav-link">
+                <a href="adminlte/dist/generate/theme.html" class="nav-link">
                   <i class="nav-icon bi bi-palette"></i>
                   <p>Theme Generate</p>
                 </a>
@@ -381,19 +381,19 @@ if(!isset($_SESSION['user'])){
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="adminlte/widgets/small-box.html" class="nav-link">
+                    <a href="adminlte/dist/widgets/small-box.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Small Box</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/widgets/info-box.html" class="nav-link">
+                    <a href="adminlte/dist/widgets/info-box.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>info Box</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/widgets/cards.html" class="nav-link">
+                    <a href="adminlte/dist/widgets/cards.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Cards</p>
                     </a>
@@ -411,67 +411,67 @@ if(!isset($_SESSION['user'])){
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="adminlte/layout/unfixed-sidebar.html" class="nav-link">
+                    <a href="adminlte/dist/layout/unfixed-sidebar.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Default Sidebar</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/layout/fixed-sidebar.html" class="nav-link">
+                    <a href="adminlte/dist/layout/fixed-sidebar.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Fixed Sidebar</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/layout/fixed-header.html" class="nav-link">
+                    <a href="adminlte/dist/layout/fixed-header.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Fixed Header</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/layout/fixed-footer.html" class="nav-link">
+                    <a href="adminlte/dist/layout/fixed-footer.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Fixed Footer</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/layout/fixed-complete.html" class="nav-link">
+                    <a href="adminlte/dist/layout/fixed-complete.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Fixed Complete</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/layout/layout-custom-area.html" class="nav-link">
+                    <a href="adminlte/dist/layout/layout-custom-area.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Layout <small>+ Custom Area </small></p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/layout/sidebar-mini.html" class="nav-link">
+                    <a href="adminlte/dist/layout/sidebar-mini.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Sidebar Mini</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/layout/collapsed-sidebar.html" class="nav-link">
+                    <a href="adminlte/dist/layout/collapsed-sidebar.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Sidebar Mini <small>+ Collapsed</small></p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/layout/collapsed-sidebar-without-hover.html" class="nav-link">
+                    <a href="adminlte/dist/layout/collapsed-sidebar-without-hover.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Sidebar Mini <small>+ Collapsed + No Hover</small></p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/layout/logo-switch.html" class="nav-link">
+                    <a href="adminlte/dist/layout/logo-switch.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Sidebar Mini <small>+ Logo Switch</small></p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/layout/layout-rtl.html" class="nav-link">
+                    <a href="adminlte/dist/layout/layout-rtl.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Layout RTL</p>
                     </a>
@@ -488,19 +488,19 @@ if(!isset($_SESSION['user'])){
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="adminlte/UI/general.html" class="nav-link">
+                    <a href="adminlte/dist/UI/general.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>General</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/UI/icons.html" class="nav-link">
+                    <a href="adminlte/dist/UI/icons.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Icons</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/UI/timeline.html" class="nav-link">
+                    <a href="adminlte/dist/UI/timeline.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Timeline</p>
                     </a>
@@ -517,7 +517,7 @@ if(!isset($_SESSION['user'])){
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="adminlte/forms/general.html" class="nav-link">
+                    <a href="adminlte/dist/forms/general.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>General Elements</p>
                     </a>
@@ -534,7 +534,7 @@ if(!isset($_SESSION['user'])){
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="adminlte/tables/simple.html" class="nav-link">
+                    <a href="adminlte/dist/tables/simple.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Simple Tables</p>
                     </a>
@@ -562,13 +562,13 @@ if(!isset($_SESSION['user'])){
                     </a>
                     <ul class="nav nav-treeview">
                       <li class="nav-item">
-                        <a href="adminlte/examples/login.html" class="nav-link">
+                        <a href="adminlte/dist/examples/login.html" class="nav-link">
                           <i class="nav-icon bi bi-circle"></i>
                           <p>Login</p>
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a href="adminlte/examples/register.html" class="nav-link">
+                        <a href="adminlte/dist/examples/register.html" class="nav-link">
                           <i class="nav-icon bi bi-circle"></i>
                           <p>Register</p>
                         </a>
@@ -585,13 +585,13 @@ if(!isset($_SESSION['user'])){
                     </a>
                     <ul class="nav nav-treeview">
                       <li class="nav-item">
-                        <a href="adminlte/examples/login-v2.html" class="nav-link">
+                        <a href="adminlte/dist/examples/login-v2.html" class="nav-link">
                           <i class="nav-icon bi bi-circle"></i>
                           <p>Login</p>
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a href="adminlte/examples/register-v2.html" class="nav-link">
+                        <a href="adminlte/dist/examples/register-v2.html" class="nav-link">
                           <i class="nav-icon bi bi-circle"></i>
                           <p>Register</p>
                         </a>
@@ -599,7 +599,7 @@ if(!isset($_SESSION['user'])){
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/examples/lockscreen.html" class="nav-link">
+                    <a href="adminlte/dist/examples/lockscreen.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Lockscreen</p>
                     </a>
@@ -609,19 +609,19 @@ if(!isset($_SESSION['user'])){
 
               <li class="nav-header">DOCUMENTATIONS</li>
               <li class="nav-item">
-                <a href="adminlte/docs/introduction.html" class="nav-link">
+                <a href="adminlte/dist/docs/introduction.html" class="nav-link">
                   <i class="nav-icon bi bi-download"></i>
                   <p>Installation</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="adminlte/docs/layout.html" class="nav-link">
+                <a href="adminlte/dist/docs/layout.html" class="nav-link">
                   <i class="nav-icon bi bi-grip-horizontal"></i>
                   <p>Layout</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="adminlte/docs/color-mode.html" class="nav-link">
+                <a href="adminlte/dist/docs/color-mode.html" class="nav-link">
                   <i class="nav-icon bi bi-star-half"></i>
                   <p>Color Mode</p>
                 </a>
@@ -636,13 +636,13 @@ if(!isset($_SESSION['user'])){
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="adminlte/docs/components/main-header.html" class="nav-link">
+                    <a href="adminlte/dist/docs/components/main-header.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Main Header</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/docs/components/main-sidebar.html" class="nav-link">
+                    <a href="adminlte/dist/docs/components/main-sidebar.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Main Sidebar</p>
                     </a>
@@ -659,43 +659,43 @@ if(!isset($_SESSION['user'])){
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="adminlte/docs/javascript/layout.html" class="nav-link">
+                    <a href="adminlte/dist/docs/javascript/layout.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Layout</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/docs/javascript/pushmenu.html" class="nav-link">
+                    <a href="adminlte/dist/docs/javascript/pushmenu.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>PushMenu</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/docs/javascript/treeview.html" class="nav-link">
+                    <a href="adminlte/dist/docs/javascript/treeview.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Treeview</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/docs/javascript/card-widget.html" class="nav-link">
+                    <a href="adminlte/dist/docs/javascript/card-widget.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Card Widget</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/docs/javascript/direct-chat.html" class="nav-link">
+                    <a href="adminlte/dist/docs/javascript/direct-chat.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Direct Chat</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/docs/javascript/fullscreen.html" class="nav-link">
+                    <a href="adminlte/dist/docs/javascript/fullscreen.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Fullscreen</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="adminlte/docs/javascript/accessibility.html" class="nav-link">
+                    <a href="adminlte/dist/docs/javascript/accessibility.html" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Accessibility</p>
                     </a>
@@ -703,25 +703,25 @@ if(!isset($_SESSION['user'])){
                 </ul>
               </li>
               <li class="nav-item">
-                <a href="adminlte/docs/browser-support.html" class="nav-link">
+                <a href="adminlte/dist/docs/browser-support.html" class="nav-link">
                   <i class="nav-icon bi bi-browser-edge"></i>
                   <p>Browser Support</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="adminlte/docs/how-to-contribute.html" class="nav-link">
+                <a href="adminlte/dist/docs/how-to-contribute.html" class="nav-link">
                   <i class="nav-icon bi bi-hand-thumbs-up-fill"></i>
                   <p>How To Contribute</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="adminlte/docs/faq.html" class="nav-link">
+                <a href="adminlte/dist/docs/faq.html" class="nav-link">
                   <i class="nav-icon bi bi-question-circle-fill"></i>
                   <p>FAQ</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="adminlte/docs/license.html" class="nav-link">
+                <a href="adminlte/dist/docs/license.html" class="nav-link">
                   <i class="nav-icon bi bi-patch-check-fill"></i>
                   <p>License</p>
                 </a>
@@ -1320,7 +1320,7 @@ if(!isset($_SESSION['user'])){
       crossorigin="anonymous"
     ></script>
     <!--end::Required Plugin(Bootstrap 5)--><!--begin::Required Plugin(AdminLTE)-->
-    <script src="adminlte/js/adminlte.js"></script>
+    <script src="adminlte/dist/js/adminlte.js"></script>
     <!--end::Required Plugin(AdminLTE)--><!--begin::OverlayScrollbars Configure-->
     <script>
       const SELECTOR_SIDEBAR_WRAPPER = '.sidebar-wrapper';
