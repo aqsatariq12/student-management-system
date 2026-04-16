@@ -8,5 +8,6 @@ Built using:
 Features:
 - Login system
 - Student list (Admin Panel UI)
+- ADD Student 
 
 More features coming soon...
