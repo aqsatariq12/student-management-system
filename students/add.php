@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Add | Student</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
         crossorigin="anonymous" />
     <link rel="stylesheet" href="../adminlte/dist/css/adminlte.css" />
@@ -811,7 +811,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             <!--end::App Content-->
             <?php if (!empty($msg)) { ?>
                 <div class="toast-container position-fixed bottom-0 end-0 p-3">
-                    <div id="toastSuccess" class="toast toast-success" role="alert" aria-live="assertive"
+                    <div id="toastSuccess" class="toast toast-primary" role="alert" aria-live="assertive"
                         aria-atomic="true">
                         <div class="toast-header">
                             <i class="bi bi-circle me-2"></i>
