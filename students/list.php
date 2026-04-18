@@ -743,19 +743,28 @@ $result = mysqli_query($conn, $sql);
                 <!--begin::Container-->
                 <div class="container-fluid">
                     <div class="card mt-5">
-                        <div class="card-header d-flex">
-                            <h3 class="card-title">Student List</h3>
+                        <div class="card-header d-flex align-items-center">
 
+                            <!-- LEFT -->
+                            <h3 class="card-title mb-0">Student List</h3>
+
+                            <!-- CENTER -->
+                            <div class="mx-auto" style="width: 300px;">
+                                <input type="text" id="searchBox" class="form-control" placeholder="Search student...">
+                            </div>
+
+                            <!-- RIGHT -->
                             <div class="ms-auto">
-                                <a href="add.php" class="btn btn-outline-primary mb-2">
+                                <a href="add.php" class="btn btn-outline-primary">
                                     + Add Student
                                 </a>
                             </div>
+
                         </div>
 
                         <!-- /.card-header -->
                         <div class="card-body p-0 table-responsive">
-                            <table class="table table-sm">
+                            <table class="table table-sm" id="studentTable">
                                 <thead>
                                     <tr>
                                         <th style="width: 10px">#</th>
@@ -846,8 +855,7 @@ $result = mysqli_query($conn, $sql);
 
             <?php if (!empty($_GET['msg']) && $_GET['msg'] == "deleted") { ?>
                 <div class="toast-container position-fixed bottom-0 end-0 p-3">
-                    <div id="toastSuccess" class="toast toast-danger" role="alert" aria-live="assertive"
-                        aria-atomic="true">
+                    <div id="toastSuccess" class="toast toast-danger" role="alert" aria-live="assertive" aria-atomic="true">
                         <div class="toast-header">
                             <i class="bi bi-circle me-2"></i>
                             <strong class="me-auto"><?php echo "Action: Deleted" ?></strong>
@@ -858,7 +866,7 @@ $result = mysqli_query($conn, $sql);
                     </div>
                 </div>
             <?php } ?>
-            
+
             <!--end::App Content-->
         </main>
         <!--end::App Main-->
@@ -889,6 +897,25 @@ $result = mysqli_query($conn, $sql);
             }
         });
     </script>
+
+    <script>
+        document.getElementById("searchBox").addEventListener("keyup", function () {
+
+            let query = this.value;
+
+            let xhr = new XMLHttpRequest();
+            xhr.open("GET", "search.php?q=" + query, true);
+
+            xhr.onload = function () {
+                document.getElementById("studentTable").innerHTML = this.responseText;
+            }
+
+            xhr.send();
+        });
+    </script>
+    <script>window.onload = function () {
+            document.getElementById("searchBox").dispatchEvent(new Event('keyup'));
+        }</script>
 
     <!--end::Third Party Plugin(OverlayScrollbars)--><!--begin::Required Plugin(popperjs for Bootstrap 5)-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

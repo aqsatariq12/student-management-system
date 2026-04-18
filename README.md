@@ -11,5 +11,7 @@ Features:
 - ADD Student 
 - Update Student 
 - Delete Student 
+- Add Search field 
+
 
 More features coming soon...
